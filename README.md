@@ -40,6 +40,18 @@ Although, you can train Graph-BERT on any dataset provided you have all the PDB 
 Demo notebooks to **extract the protein instances from text, download corresponding pdb files, 
 and extracting molecular structure data** from pdb files are present in the **Molecular Structure** Folder 
 
+# References
+```
+@misc{pingali2021multimodal,
+      title={Multimodal Graph-based Transformer Framework for Biomedical Relation Extraction}, 
+      author={Sriram Pingali and Shweta Yadav and Pratik Dutta and Sriparna Saha},
+      year={2021},
+      eprint={2107.00596},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 # Acknowledgements
 Graph-BERT code for this project is based on 
 * [Graph-Bert: Only Attention is Needed for Learning Graph Representations](https://github.com/jwzhanggy/Graph-Bert)
