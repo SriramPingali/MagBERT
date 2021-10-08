@@ -1,5 +1,5 @@
 # MagBERT
-This is the implementation of MagBERT (Model Agnostic Graph based BERT for Biomedical Relation Extraction) model described in [Multimodal Graph-based Transformer Framework for Biomedical
+This is the official implementation of MagBERT (Model Agnostic Graph based BERT for Biomedical Relation Extraction) model described in [Multimodal Graph-based Transformer Framework for Biomedical
 Relation Extraction](https://aclanthology.org/2021.findings-acl.328.pdf)
 
 # Introduction
