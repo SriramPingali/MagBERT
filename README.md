@@ -11,7 +11,7 @@ with the help of additional multi-modal cues like molecular structure
 
 # Datasets
 We use the HPRD Dataset and Bioinfer Datasets. Their corresponding test samples are already included in this repository (In Molecular Structure Folder). Additionally, you can also download the pdb files of protein entities
-from HPRD dataset can be downloaded from [here](https://drive.google.com/file/d/115G1vlkL2TOncU2XdhlcVoYGRjHRMeVT/view?usp=sharing) and for Bio-Infer Dataset from [here](https://drive.google.com/file/d/1YOG6CTirzwjC-S8YLXW05hG2qvYLARlx/view?usp=sharing)
+from HPRD dataset from [here](https://drive.google.com/file/d/115G1vlkL2TOncU2XdhlcVoYGRjHRMeVT/view?usp=sharing) and for Bio-Infer Dataset from [here](https://drive.google.com/file/d/1YOG6CTirzwjC-S8YLXW05hG2qvYLARlx/view?usp=sharing)
 
 # Dependencies
  - Pytorch
