@@ -5,7 +5,7 @@ Relation Extraction](https://aclanthology.org/2021.findings-acl.328.pdf)
 # Introduction
 The recent advancement of pre-trained Transformer models has propelled the development of effective text mining models across various
 biomedical tasks. In this study, we introduced a novel framework that enables the model to learn multi-omnics biological information about entities (proteins)
-with the help of additional multi-modal cues like molecular structure
+with the help of additional multi-modal cues like molecular structure.
 
 ![MagBERT](./magbert.png)
 
@@ -38,7 +38,7 @@ The above scripts enable training on the HPRD and Bio-Infer Datasets (Make sure 
 HPRD or "biomed" for Bio-Infer in the three python scripts). 
 Although, you can train Graph-BERT on any dataset provided you have all the PDB files extracted. 
 Demo notebooks to **extract the protein instances from text, download corresponding pdb files, 
-and extracting molecular structure data** from pdb files are present in the **Molecular Structure** Folder 
+and extracting molecular structure data** from pdb files are present in the **Molecular Structure** Folder.
 
 # References
 ```
