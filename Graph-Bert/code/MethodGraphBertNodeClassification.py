@@ -72,8 +72,9 @@ class MethodGraphBertNodeClassification(BertPreTrainedModel):
         accuracy = EvaluateAcc('', '')
 
         max_score = 0.0
-        k_fold = 2
+        k_fold = 5
         for k in range(k_fold):
+            print("*******Starting {} fold************".format(k + 1))
             for epoch in range(max_epoch):
                 t_epoch_begin = time.time()
                 # -------------------------

@@ -66,7 +66,7 @@ if 1:
     else:
         k=5
         lr = 0.01
-        max_epoch = 200
+        max_epoch = 100
 
     x_size = nfeature
     hidden_size = intermediate_size = 32
@@ -132,7 +132,7 @@ if 1:
     else:
         k=5
         lr = 0.01
-        max_epoch = 200
+        max_epoch = 100
 
     x_size = nfeature
     hidden_size = intermediate_size = 32

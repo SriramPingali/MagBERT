@@ -150,7 +150,7 @@ class DatasetLoader(dataset):
             idx_test = range(partition, end)
 
 
-            kf = KFold(n_splits = 2)
+            kf = KFold(n_splits = 5)
             for train_index, val_index in kf.split(range(partition)):
                 idx_train.append(train_index)
                 idx_val.append(val_index)

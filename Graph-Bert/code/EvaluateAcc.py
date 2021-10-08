@@ -21,12 +21,12 @@ class EvaluateAcc(evaluate):
         # recall = recall_score(self.data['true_y'], self	.data['pred_y'])
         return(acc_scr, f1_scr)
 
-    def test(self):
-    	lines = []
-    	for i in range(len(self.data['true_y'])):
-    		lines.append([str(self.data['true_y'][i].numpy()), str(self.data['pred_y'][i].numpy())])
-    	with open("visualise.csv", "w") as f:
-    		writer = csv.writer(f)
-    		writer.writerow(["True_y", "Pred_y"])
-    		for row in lines:
-    			writer.writerow(row)
+    # def test(self):
+    # 	lines = []
+    # 	for i in range(len(self.data['true_y'])):
+    # 		lines.append([str(self.data['true_y'][i].numpy()), str(self.data['pred_y'][i].numpy())])
+    # 	with open("visualise.csv", "w") as f:
+    # 		writer = csv.writer(f)
+    # 		writer.writerow(["True_y", "Pred_y"])
+    # 		for row in lines:
+    # 			writer.writerow(row)
