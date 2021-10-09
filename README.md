@@ -22,7 +22,7 @@ from HPRD dataset from [here](https://drive.google.com/file/d/115G1vlkL2TOncU2Xd
  - pypdb
  - Bio
  
-# Train Graph-BERT on Bio-Infer / HPDR
+# Train Graph-BERT on Bio-Infer / HPRD
 In order to replicate the results mentioned in paper, please follow the following steps.
 1.  Download the [zip](https://drive.google.com/file/d/1m5NfYV7-GePn5H7mVy9dXdpM25bYba4p/view?usp=sharing) folder and place the two files at ./Graph-Bert/data/ppi.
 2.  Do the same for this [zip](https://drive.google.com/file/d/1sE9H8LpNnnbDJz9qAJNOpwbrfU48PGHo/view?usp=sharing) folder and place the two files at ./Graph-Bert/data/biomed.
